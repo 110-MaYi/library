@@ -1,0 +1,1 @@
+package com.mayi.library.member.service.exception;/** * @author mayi * @create 2018-08-25 下午8:53 *///通过直接继承实现自定义的错误public class MemberNotFoundException extends RuntimeException {    public MemberNotFoundException(String msg){        super(msg);    }}
